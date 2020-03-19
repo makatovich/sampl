@@ -1,0 +1,475 @@
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway-Thin_Italic';
+    src: url(../fonts/Raleway-Thin-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway-Light';
+    src: url(../fonts/Raleway-Light.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.button{
+font-family: 'OpenSans', sans-serif;
+font-size: 15px;
+color: #ffffff;
+text-decoration: none;
+border: 2px solid #ffffff;
+padding: 13px 30px;
+
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+/* header*/
+.section_top{
+    border-bottom: 2px solid #bebebe;
+}
+.header_up{
+    background-color: black;
+    height: 75px;
+}
+.section_top_header{
+background-color: black;
+padding: 22px 0px;
+}
+
+.header_text{
+    background-color: black;
+    margin: 0px 150px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.block_top{
+    display:flex;
+    justify-content: space-between;
+}
+
+.block_top .article{
+    font-family:'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #b0b0b0;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+section {
+    padding: 105px 143px;
+}
+
+.section_header {
+    text-align: center;
+}
+
+.section_header h2 {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-family: 'Raleway-Regular';
+    font-size: 36px;
+    line-height: 43px;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.section_header h2:after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 64px;
+    background-color: #ff8d2d;
+    position: absolute;
+    left: calc(50% - 32px);
+    bottom: -24px;
+}
+
+.section_header p {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 14px;
+    color: #86878b;
+    line-height: 20px;
+    margin-bottom: 75px;
+}
+.blocks {
+    display: flex;
+    justify-content: space-around;
+}
+.one_block {
+    text-align: center;
+    width: 30%;
+}
+
+.one_block img {
+    margin-bottom: 24px;
+}
+
+.one_block .title {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #333333;
+    margin-bottom: 22px;
+}
+
+.one_block p {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #86878b;
+}
+/*axit_block*/
+.axit_section{
+background-image: url(../img/AXIT_image.png);
+background-size:cover ;
+}
+
+.axit_section .section_header {
+    text-align: left;
+    margin-right: 230px;
+}
+.axit_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.axit_section h2{
+
+font-family: 'Raleway-Regular';
+        font-size: 36px;
+        line-height: 43px;
+        text-transform: uppercase;
+        color: white;
+}
+.axit_section p{
+    font-family: 'OpenSans', sans-serif;
+    font-size: 14px;
+    color: #86878b;
+    line-height: 20px;
+    margin-bottom: 75px;
+   
+}
+.contact_form_1 p, .header{
+    font-family: 'OpenSans', sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.orange_text {
+    color: #ff8c2d;
+    text-transform: uppercase;
+}
+.contact_form_1 {
+    border-radius: 5px;
+}
+.axit_section .contact_form_1 {
+    background-color: white;
+}
+.contact_form_1 p {
+    color: black;
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 21px;
+    border-radius: 5px;
+}
+
+.inputs input, .contact input {
+    width: 285px;
+    border: none;
+    border-bottom: 1px solid #d6d6d6;
+    margin: 25px 38px;
+}
+.contact_form_1 .inputs [type="submit"], .contacts [type="submit"] {
+    margin: 0;
+    background-color: #ff8c2d;
+    width: 100%;
+    border: none;
+    padding: 28px 0;
+    text-align: center;
+    color: white;
+    font-size: 15pt;
+    border-radius: 0px 0px 7px 7px;
+}
+.contact_form_1 .inputs [type="submit"]:hover, .contacts [type="submit"]:hover {
+    background-color: black;
+    color:  #ff8c2d;
+}
+.section_header img {
+    margin-bottom: 30px;
+}
+.axit_section .section_header h2:after {
+    left: 0;}
+
+/*social_media*/
+
+.social_media {
+    margin: 0px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social_media_text{
+    margin-bottom: 15px;
+    padding-top: 15px;
+
+}
+.social_media_text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #9d9ea1;
+    margin-bottom: 23px;}
+
+.social_media_icons{
+        padding-top: 35px;
+        font-size: 35px;
+    }
+    
+.social_media_icons a{
+        margin-left: 40px;
+        color: #cccccc;
+        text-decoration: none;
+    }
+
+.social_header{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;}
+
+.grey_section{
+    width: 1400px;
+    height: 2px;
+    background-color:#d6d6d6;
+    opacity: 80%;
+}
+
+/* styles for pricing*/
+.pricing{
+    background-image:url(../img/Pricing_Panel.png);
+    position: relative;
+}
+
+.big_price{
+    display:flex;
+    justify-content: space-between;
+
+  }
+  
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+   
+  }
+.columns{
+    text-align: right;
+    width: 30%;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.columns_up{
+    text-align: center;
+    width: 30%;
+    margin-top: -30px;
+}
+.price .header {
+    background-color: #303030;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 0px;
+  }
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+  }
+  
+.price .orange{
+      background-color: darkorange;
+      color: black;
+      font-family: 'Open Sans',sans-serif;
+
+  }
+.price .orange_empty{
+      background-color: darkorange;
+      padding: 2px;
+      margin-top: 0px;
+      
+      
+  }
+.price_usd{
+    font-family: 'Raleway', serif;
+    font-weight:bold;
+    font-size: 94px;
+    color: #ffffff;
+  }
+.sub{
+    vertical-align: sub;
+    font-size: smaller;
+}
+/* не могу разобраться с толщиной*/
+.payment {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 14px;
+    color: #ffffff;  
+    opacity: 50%;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+.row{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #86878b;
+    line-height: 20px;
+    font-weight: 400;
+  }
+.big_price p{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  /* тож запуталась как убрать отступ перед оранжевым блоком */
+.orange p{
+  font-size: 14px;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: bold;
+  }
+
+/* styles for background*/
+.download_section{
+    background-image: url(../img/bg_downloadsection.png);
+    background-size: cover;
+}
+.download_section h2{
+color: #ffffff;
+}
+.download_section .section_header h2::after{
+    background-color: #ffffff;
+}
+.download_section .section_header p{
+    color: #ffffff;
+    opacity: 0.8;
+    font-family: 'Raleway-Light';
+    font-size: 16px;
+}
+.button_block{
+    display: flex;
+    justify-content: center;
+}
+/* contact*/
+.contact-left {
+    float: left;
+    width: 50%;
+}
+.contact-right {
+    float: right;
+    width: 50%;
+}
+.contact-form li {
+    display: block;
+    margin: 0 40px 30px 40px;
+}
+.contact-form input, .contact-form textarea{
+    font-family: 'Open Sans',sans-serif;
+    color: #d6d6d6;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 10px 5px; 
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #d6d6d6;
+    align-items: center;
+    }
+
+textarea {
+ margin-top: 3px;
+ resize: none;
+    }
+.btn_contact_submit {
+background: #ff9b51;
+color: #ffffff;
+padding: 15px 40px;
+margin: 10px auto;
+border: 0;
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+}
+.btn_contact_submit:hover {
+ opacity: 0.8;
+    }
+.button_center{
+    width: 1400px;
+}
+/*footer */
+
+.footer{
+    background-image: url(../img/footer/footer.png);
+    text-align: center;
+    padding: 35px 0px 15px;
+}
+.sprite{
+   background-image: url(../img/footer/logo.png);
+   background-repeat: no-repeat;
+   display: inline-block;
+   
+}
+
+.facebook{
+    width: 25px;
+    height: 25px;
+    background-position: -25px -25px;
+}
+.twitter{
+    width: 40px;
+    height: 30px;
+    background-position: -25px -25px;
+}
+.gmail{
+    width: 50px;
+    height: 30px;
+    background-position: -25px -25px;
+}
+.pinterest{
+    width: 50px;
+    height: 30px;
+    background-position: -25px -25px;
+}
+.instagram{
+    width: 50px;
+    height: 30px;
+    background-position: -25px -25px;
+}
+.list{
+    width: 50px;
+    height: 30px;
+    background-position: -25px -25px;
+}
+.wif{
+        width: 50px;
+    height: 30px;
+    background-position: -25px -25px;
+}
+.footer p{
+    color: #ffffff;
+    font-size: 12px;
+    opacity: 0.5;
+}
